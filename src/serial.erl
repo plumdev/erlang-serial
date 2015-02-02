@@ -34,7 +34,7 @@
 -include("serial.hrl").
 
 priv_dir() ->
-    case code:priv_dir(serial) of
+    case code:priv_dir('erlang-serial') of
 	{error, bad_name} ->
 	    "./priv";
 	D ->
