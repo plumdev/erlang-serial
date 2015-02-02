@@ -1,3 +1,4 @@
-ebin/*.beam
-priv/bin/serial
+ebin/
+priv/serial
 c_src/*.o
+.rebar
